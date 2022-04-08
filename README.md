@@ -1,11 +1,13 @@
 # Consumindo-api-GitHub
 
 ---- Instalação ----
-git clone https://github.com/Gabriel-Duarte-dev/Consumindo-api-GitHub.git
-cd Consumindo-api-GitHub
-npm install
-
+<br/>
+<p>git clone https://github.com/Gabriel-Duarte-dev/Consumindo-api-GitHub.git</p>
+<p>cd Consumindo-api-GitHub</p>
+<p>npm install</P
+<br/><br/>
 ---- Rodando aplicação ----
-npm run dev
-a aplicação vai rodar na porta 3000
-http://localhost:3000
+<br/>
+<P>npm run dev</p>
+<p>a aplicação vai rodar na porta 3000</p>
+<p>http://localhost:3000<p>
