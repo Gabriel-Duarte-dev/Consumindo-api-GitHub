@@ -1,4 +1,4 @@
-import { HStack, Input, IconButton, Flex, useToast } from "@chakra-ui/react";
+import { Input, IconButton, Flex, useToast } from "@chakra-ui/react";
 import { useContext, useState } from "react";
 import { AiOutlineSearch } from "react-icons/ai";
 import UserContext from "../../context";
@@ -10,7 +10,7 @@ import {
 
 export function SearchBox(): JSX.Element {
   const [findUser, setFindUser] = useState<string>("");
-  const { user, setUser, setUserRepos, setUserReposStarred, setIsLoaded } =
+  const { setUser, setUserRepos, setUserReposStarred, setIsLoaded } =
     useContext(UserContext);
   const toast = useToast();
 

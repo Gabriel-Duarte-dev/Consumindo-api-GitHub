@@ -3,10 +3,7 @@ import {
   Button,
   Center,
   Flex,
-  Heading,
-  HStack,
   Img,
-  Link,
   Skeleton,
   SkeletonCircle,
   Stack,
@@ -49,14 +46,13 @@ export function CardUser(): JSX.Element {
             </SkeletonCircle>
 
             <Skeleton isLoaded={isLoaded} m={{ base: 0, sm: "0 15px" }}>
-              <Link
-                href={user.html_url}
+              <Text
                 color="#f8f8f8"
                 fontSize={{ base: "sm", sm: "md" }}
                 fontWeight="300"
               >
                 {user.name}
-              </Link>
+              </Text>
             </Skeleton>
           </Flex>
 

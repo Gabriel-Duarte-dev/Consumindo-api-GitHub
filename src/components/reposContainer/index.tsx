@@ -1,4 +1,4 @@
-import { Box, Flex, Heading, Icon } from "@chakra-ui/react";
+import { Flex, Heading, Icon } from "@chakra-ui/react";
 import { ReactNode } from "react";
 import { BiArrowBack } from "react-icons/bi";
 import { useNavigate } from "react-router-dom";

@@ -1,4 +1,3 @@
-import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import App from "./pages/Home/App";
 import Repos from "./pages/Repos";
