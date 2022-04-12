@@ -16,7 +16,7 @@ export function ReposContainer({
   return (
     <Flex
       w={{ base: "300px", sm: "450px" }}
-      maxH="650px"
+      maxH={{ base: "80%", sm: "650px" }}
       overflowY="auto"
       overflowX="hidden"
       p="20px"
